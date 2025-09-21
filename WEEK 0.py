@@ -36,7 +36,7 @@ class BankAccount:
 
     def withdraw(self):
         withd = float(input("Enter the amount to be withdrawn:"))
-        self.balance += withd
+        self.balance -= withd
 
     def checkbal(self):
         print("\nName:", self.name)
@@ -65,3 +65,4 @@ car1 = Car()
 car1.display()
         
         
+
